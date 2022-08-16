@@ -1,8 +1,11 @@
+# Currency converter - Dotnet
 
+This kata should help you go on with test doubles through XUnit & Moq.
 
-# .NET starter : dotnetcore + XUnit
+Check [root README](../README.md) for details on what to implement
 
-Skeleton to start the Potter Kata in DOTNET : https://codingdojo.org/kata/Potter/
+Additional tip:
+* Moq does not work to stub methods that are not virtual. You therefore won't be able to create a Mock of the ConversionRateApi. What you probably need is an interface...
 
 ## Installing
 
