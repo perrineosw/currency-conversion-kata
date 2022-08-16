@@ -1,9 +1,10 @@
 # PHP - PHP Unit
 
-This uses :
-* __PHP 8__ as interpreter
-* __PHPUnit__ for tests
-* __Composer__ for package management
+This kata help you practice test doubles and PHPUnit
+
+For full instructions about the problem see [home readme](../README.md)
+
+__//!\\ PHP 8.1 is necessary for this kata to work__
 
 ## Installing
 
