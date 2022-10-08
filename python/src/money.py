@@ -1,4 +1,4 @@
-from currency import Currency
+from src.currency import Currency
 
 
 class Money:

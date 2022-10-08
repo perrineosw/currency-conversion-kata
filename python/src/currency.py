@@ -1,6 +1,6 @@
 from enum import Enum
 
-from external.currency_iso_code import CurrencyIsoCode
+from src.external.currency_iso_code import CurrencyIsoCode
 
 
 class Currency(Enum):
