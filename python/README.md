@@ -16,3 +16,7 @@ Once you have created and activated your virtual environment
 ## Running coverage
 
 > pytest --cov=src
+
+## Generate coverage
+
+> mutatest -s src
