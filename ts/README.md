@@ -4,11 +4,9 @@ This kata should help you with tests doubles and Jest
 
 Check [root README](../README.md) for instructions
 
-
 ## Installation
 
 > npm i
-
 
 ## Running tests
 
@@ -20,7 +18,7 @@ The coverage is automatically run with `npm test`. You have a report directly in
 
 ## Mutation testing
 
-> npm test:mutation
+> npm run test:mutation
 
 You need green tests to perform the mutation testing.
 
