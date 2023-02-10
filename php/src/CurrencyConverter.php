@@ -29,7 +29,7 @@ class CurrencyConverter
                 $knownRates[$m->currency->toString()] = $this->conversionRateApi->getRate($m->currency->toIsoCurrency(), $target->toIsoCurrency());
             }
 
-            $total = $knownRates[$m->currency->toString()] * $m->amount;
+            $total += $knownRates[$m->currency->toString()] * $m->amount;
         }
 
         return new Money($total, $target);
