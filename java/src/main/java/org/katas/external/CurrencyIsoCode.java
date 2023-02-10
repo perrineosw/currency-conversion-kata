@@ -1,4 +1,4 @@
-package external;
+package org.katas.external;
 
 public enum CurrencyIsoCode {
     USD("USD"),

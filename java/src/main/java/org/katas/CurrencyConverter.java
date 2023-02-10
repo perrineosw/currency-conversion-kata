@@ -1,6 +1,8 @@
-import external.ConversionRateApi;
-import model.Currency;
-import model.Money;
+package org.katas;
+
+import org.katas.external.ConversionRateApi;
+import org.katas.model.Currency;
+import org.katas.model.Money;
 
 import java.util.HashMap;
 

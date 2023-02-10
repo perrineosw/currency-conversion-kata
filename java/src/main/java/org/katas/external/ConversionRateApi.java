@@ -1,4 +1,4 @@
-package external;
+package org.katas.external;
 
 public class ConversionRateApi {
     public double getRate(CurrencyIsoCode source, CurrencyIsoCode target) {
