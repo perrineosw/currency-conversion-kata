@@ -1,6 +1,6 @@
-package external.conversionRateApi
+package org.katas.external.conversionRateApi
 
-import external.CurrencyIsoCode
+import org.katas.external.CurrencyIsoCode
 
 class ConversionRateApi {
     fun getRate(source: CurrencyIsoCode, target: CurrencyIsoCode): Double {

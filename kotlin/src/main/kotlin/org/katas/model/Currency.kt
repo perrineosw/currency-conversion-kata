@@ -1,6 +1,6 @@
-package model
+package org.katas.model
 
-import external.CurrencyIsoCode
+import org.katas.external.CurrencyIsoCode
 
 enum class Currency {
     EURO, DOLLAR, POUND, YEN;
