@@ -11,3 +11,5 @@ export class ConversionRateApi {
     );
   }
 }
+export { CurrencyIsoCode };
+

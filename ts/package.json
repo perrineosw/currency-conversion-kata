@@ -5,6 +5,7 @@
   "main": "main.ts",
   "scripts": {
     "test": "jest --coverage",
+    "test:analyse": "npx nyc --reporter=html --reporter=text npm test",
     "test:mutation": "stryker run"
   },
   "devDependencies": {
